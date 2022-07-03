@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading" id="login" data-text="Login......">Login......</div>
+        <form action="" target="_blank" method="get" >
+            <div class="cand_details">
+              <div class="candetails">
+                <div class="reg_details">
+                <span class="details" id="email_la">Email Id</span>
+                <input type="email" placeholder="Enter Your Email" id="email">
+                </div>
+              </div>
+              <div class="candetails">
+                <div class="reg_details">
+                <span class="details" id="email_la">Password</span>
+                <input type="password" placeholder="Enter Password" id="email">
+                </div>
+              </div>
+            </div>
+
+            <div class="button">
+                <a href="">
+                <input type="Submit" value="Login" onclick="myFunction()"></a>
+                <script>
+                    function myFunction() {
+                      alert("Login Id or Password is Incorrect");
+                    }
+                    </script>
+            </div>
+            <div>
+                <span id="reg_mem"><i>Not a member yet?</i></span>
+                <a href="registration.html"><lable style="color:yellow;">&nbsp Register</lable></a>
+                <br>
+                <br>
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>
